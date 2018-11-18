@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.manager</groupId>
+    <artifactId>autoEcoleManager</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>autoEcoleManager-presentation</artifactId>
+  
+  <packaging>war</packaging>
+  <name>autoEcoleManager-presentation Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+    </dependency>
+    
+  	<dependency>
+  		<groupId>com.manager</groupId>
+    	<artifactId>autoEcoleManager-utility</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+
+  </dependencies>
+  
+  <build>
+    <finalName>autoEcoleManager-presentation</finalName>
+  </build>
+</project>
